@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import foxLogo from "@/assets/fox.png";
 
 const About = () => {
   return (
@@ -18,11 +19,11 @@ const About = () => {
             
             <div className="grid grid-cols-3 gap-6 mb-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">500+</div>
+                <div className="text-3xl font-bold text-accent mb-2">5000+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">50+</div>
+                <div className="text-3xl font-bold text-accent mb-2">4000+</div>
                 <div className="text-sm text-muted-foreground">Happy Clients</div>
               </div>
               <div className="text-center">
@@ -39,13 +40,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-accent rounded-2xl p-8 shadow-accent">
               <div className="w-full h-full bg-background rounded-xl flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl font-bold text-primary-foreground">F</span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-primary mb-2">Foxlade</h3>
-                  <p className="text-muted-foreground">Where creativity meets precision</p>
-                </div>
+                <img src={foxLogo} alt="Foxlade Logo" className="w-40" />
               </div>
             </div>
           </div>

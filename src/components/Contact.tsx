@@ -24,8 +24,8 @@ const Contact = () => {
               <CardDescription>Speak directly with our team</CardDescription>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-lg font-semibold text-primary mb-2">(555) 123-4567</p>
-              <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM EST</p>
+              <p className="text-lg font-semibold text-primary mb-2">+(234) 811-067-7711</p>
+              <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM WAT</p>
             </CardContent>
           </Card>
           
@@ -38,7 +38,7 @@ const Contact = () => {
               <CardDescription>Send us your project details</CardDescription>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-lg font-semibold text-primary mb-2">hello@foxlade.com</p>
+              <p className="text-lg font-semibold text-primary mb-2">askfoxladelimited@gmail.com</p>
               <p className="text-sm text-muted-foreground">Response within 24 hours</p>
             </CardContent>
           </Card>
@@ -52,8 +52,8 @@ const Contact = () => {
               <CardDescription>See our workshop in action</CardDescription>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-lg font-semibold text-primary mb-2">123 Creative Street</p>
-              <p className="text-sm text-muted-foreground">Design District, NY 10001</p>
+              <p className="text-lg font-semibold text-primary mb-2">70 Omeife Bus Stop Obiagu Road</p>
+              <p className="text-sm text-muted-foreground">Enugu North, NG 400102</p>
             </CardContent>
           </Card>
         </div>

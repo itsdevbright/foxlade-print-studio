@@ -32,7 +32,11 @@ const Hero = () => {
             <Button variant="cta" size="lg" className="text-lg px-8 py-4">
               Start Your Project
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="text-lg px-8 py-4 border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground/10"
+            >
               View Our Work
             </Button>
           </div>
